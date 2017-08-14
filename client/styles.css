@@ -1,0 +1,32 @@
+#grid {
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  display: inline-block;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+}
+
+.cell {
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.cell.alive {
+  background: green;
+}
+
+.cell:hover {
+  background: red;
+}
+
+#pauseBtn {
+  display: none;
+}
